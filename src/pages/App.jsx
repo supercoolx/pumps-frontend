@@ -246,90 +246,108 @@ function App() {
 						<img src="./imgs/img5.png" className="h-[655px] mr-[190px]" alt="" />
 					</div>
 				</div> */}
-				{/* <div className="flex items-center">
+				<div className="flex sm:flex-row flex-col items-center">
 					<div className="mt-[47px]">
-						<img src="./imgs/img6.png" className="h-[622px]" alt="" />
+						<img src="./imgs/img6.png" className="laptop:h-[622px] lg:h-[400px] sm:h-[250px] h-auto" alt="" />
 					</div>
 					<div className="flex-1 font-molengo">
 						<div>
-							<h1 className="text-[32px] text-primary">ERC20 Initial Airdrop Distribution:</h1>
+							<h1 className="laptop:text-[32px] lg:text-[24px] sm:text-[16px] text-[18px] text-primary">ERC20 Initial Airdrop Distribution:</h1>
 							<div className="flex ml-[33px] mt-[11px]">
-								<div className="flex-[2] text-[32px] text-primary">Percentage:</div>
-								<div className="flex-[3] text-[29px]">24% (24,000,000 $Pumps)</div>
+								<div className="2xl:flex-[2] flex-[1] laptop:text-[32px] lg:text-[22px] sm:text-[14px] text-[16px] text-primary">Percentage:</div>
+								<div className="2xl:flex-[3] flex-[2] laptop:text-[29px] lg:text-[20px] sm:text-[12px] text-[14px]">24% (24,000,000 $Pumps)</div>
 							</div>
 							<div className="flex ml-[33px] mt-[5px]">
-								<div className="flex-[2] text-[32px] text-primary">Recipients::</div>
-								<div className="flex-[3] text-[29px]">3,300 RAG Wallets (Join RAG)</div>
+								<div className="2xl:flex-[2] flex-[1] laptop:text-[32px] lg:text-[22px] sm:text-[14px] text-[16px] text-primary">Recipients::</div>
+								<div className="2xl:flex-[3] flex-[2] laptop:text-[29px] lg:text-[20px] sm:text-[12px] text-[14px]">3,300 RAG Wallets (Join RAG)</div>
 							</div>
 						</div>
 						<div className="mt-[39px]">
-							<h1 className="text-[32px] text-primary">ERC20 Initial Airdrop Distribution:</h1>
+							<h1 className="laptop:text-[32px] lg:text-[24px] sm:text-[16px] text-[18px] text-primary">ERC20 Initial Airdrop Distribution:</h1>
 							<div className="flex ml-[33px] mt-[11px]">
-								<div className="flex-[2] text-[32px] text-primary">Percentage:</div>
-								<div className="flex-[3] text-[29px]">24% (24,000,000 $Pumps)</div>
+								<div className="2xl:flex-[2] flex-[1] laptop:text-[32px] lg:text-[22px] sm:text-[14px] text-[16px] text-primary">Percentage:</div>
+								<div className="2xl:flex-[3] flex-[2] laptop:text-[29px] lg:text-[20px] sm:text-[12px] text-[14px]">24% (24,000,000 $Pumps)</div>
 							</div>
 							<div className="flex ml-[33px] mt-[5px]">
-								<div className="flex-[2] text-[32px] text-primary">Recipients::</div>
-								<div className="flex-[3] text-[29px]">3,300 RAG Wallets (Join RAG)</div>
+								<div className="2xl:flex-[2] flex-[1] laptop:text-[32px] lg:text-[22px] sm:text-[14px] text-[16px] text-primary">Recipients::</div>
+								<div className="2xl:flex-[3] flex-[2] laptop:text-[29px] lg:text-[20px] sm:text-[12px] text-[14px]">3,300 RAG Wallets (Join RAG)</div>
 							</div>
 						</div>
 						<div className="mt-[39px]">
-							<h1 className="text-[32px] text-primary">ERC20 Initial Airdrop Distribution:</h1>
+							<h1 className="laptop:text-[32px] lg:text-[24px] sm:text-[16px] text-[18px] text-primary">ERC20 Initial Airdrop Distribution:</h1>
 							<div className="flex ml-[33px] mt-[11px]">
-								<div className="flex-[2] text-[32px] text-primary">Percentage:</div>
-								<div className="flex-[3] text-[29px]">24% (24,000,000 $Pumps)</div>
+								<div className="2xl:flex-[2] flex-[1] laptop:text-[32px] lg:text-[22px] sm:text-[14px] text-[16px] text-primary">Percentage:</div>
+								<div className="2xl:flex-[3] flex-[2] laptop:text-[29px] lg:text-[20px] sm:text-[12px] text-[14px]">24% (24,000,000 $Pumps)</div>
 							</div>
 							<div className="flex ml-[33px] mt-[5px]">
-								<div className="flex-[2] text-[32px] text-primary">Recipients::</div>
-								<div className="flex-[3] text-[29px]">3,300 RAG Wallets (Join RAG)</div>
+								<div className="2xl:flex-[2] flex-[1] laptop:text-[32px] lg:text-[22px] sm:text-[14px] text-[16px] text-primary">Recipients::</div>
+								<div className="2xl:flex-[3] flex-[2] laptop:text-[29px] lg:text-[20px] sm:text-[12px] text-[14px]">3,300 RAG Wallets (Join RAG)</div>
 							</div>
 						</div>
 					</div>
-				</div> */}
-				{/* <div className="font-molengo mt-[57px] pb-[170px] bg-[#201f1c] text-[30px] mx-[39px] border-2 border-opacity-[12%] border-white rounded-[40px]">
-					<h1 className="text-6xl font-bold text-center text-primary font-palanquin mt-[116px]">Frequently Asked Questions</h1>
-					<div className="mt-[111px] space-y-[20px] text-[30px] font-molengo px-[132px]">
-						<div className="rounded-[15px] border-2 py-[37px] pl-[77px] pr-[63px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between">
-								<h2 className="text-primary">Why is $Pumps so great?</h2>
-								<img src="./imgs/arrow.svg" alt="" />
+				</div>
+				<div className="font-molengo mt-[57px] lg:pb-[170px] pb-[50px] bg-[#201f1c] text-[30px] mx-[39px] border-2 border-opacity-[12%] border-white rounded-[40px]">
+					<h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-lg font-bold text-center text-primary font-palanquin lg:mt-[116px] sm:mt-[56px] mt-[30px]">Frequently Asked Questions</h1>
+					<div className="lg:mt-[111px] sm:mt-[56px] mt-[30px] sm:space-y-[20px] space-y-[10px] text-[30px] font-molengo lg:px-[132px] sm:px-[60px] px-[12px]">
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">Why is $Pumps so great?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
-							<div className="mt-[35px]">
+							<div className="sm:mt-[35px] mt-[14px] sm:text-2xl text-[12px]">
 								<p className="">Because $Pumps Go To The Gym</p>
 							</div>
 						</div>
-						<div className="rounded-[15px] border-2 py-[37px] pl-[77px] pr-[63px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between">
-								<h2 className="text-primary">Why is $Pumps so great?</h2>
-								<img src="./imgs/arrow.svg" alt="" />
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">How can I improve my life?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
-						<div className="rounded-[15px] border-2 py-[37px] pl-[77px] pr-[63px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between">
-								<h2 className="text-primary">Why is $Pumps so great?</h2>
-								<img src="./imgs/arrow.svg" alt="" />
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">If you are having lower back pain?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
-						<div className="rounded-[15px] border-2 py-[37px] pl-[77px] pr-[63px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between">
-								<h2 className="text-primary">Why is $Pumps so great?</h2>
-								<img src="./imgs/arrow.svg" alt="" />
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">If you are experiencing awkwardness discussing crypto with your loved ones ?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
-						<div className="rounded-[15px] border-2 py-[37px] pl-[77px] pr-[63px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between">
-								<h2 className="text-primary">Why is $Pumps so great?</h2>
-								<img src="./imgs/arrow.svg" alt="" />
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">If you are experiencing stress?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
-						<div className="rounded-[15px] border-2 py-[37px] pl-[77px] pr-[63px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between">
-								<h2 className="text-primary">Why is $Pumps so great?</h2>
-								<img src="./imgs/arrow.svg" alt="" />
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness.</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
+							</div>
+						</div>
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">Don’t feel comfortable speaking with “that side of the family” because of politics ?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
+							</div>
+						</div>
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
+							</div>
+						</div>
+						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
+							<div className="flex items-center justify-between sm:text-3xl text-sm">
+								<h2 className="text-primary px-2">So there was this guy named Dave, right?</h2>
+								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 					</div>
-				</div> */}
+				</div>
 			</div>
 			<div className="flex md:flex-row flex-col items-center justify-between mt-[36px] lg:ml-[12%] lg:mr-[7%] ml-[5%] mr-[5%] mb-[55px]">
 				<div className="flex items-center gap-[26px]">
