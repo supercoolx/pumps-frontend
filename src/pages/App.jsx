@@ -184,26 +184,26 @@ function App() {
 						</div>
 					</div>
 				</div>
-				{/* <div className="mt-[128px]">
-					<h1 className="text-6xl font-bold text-center text-primary font-palanquin">Safeguards and Mechanisms</h1>
-					<div className="mt-[100px] flex justify-center flex-wrap gap-[70px]">
-						<div className="w-[375px] h-[375px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="w-[371px] h-[371px] bg-black m-[2px] rounded-full font-molengo text-2xl px-3 pt-[35%] text-center">Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</div>
+				<div className="mt-[128px] flex justify-center flex-wrap">
+					<h1 className="w-10/12 text-4xl font-bold text-center sm:text-6xl text-primary font-palanquin">Safeguards and Mechanisms</h1>
+					<div className="mt-[100px] flex justify-center flex-wrap gap-[70px] w-11/12">
+						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</div>
 						</div>
-						<div className="w-[375px] h-[375px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="w-[371px] h-[371px] bg-black m-[2px] rounded-full font-molengo text-2xl px-3 pt-[35%] text-center">Transparency Milestones: Set clear milestones for increasing transparency, such as public reporting of decisions and financial audits. </div>
+						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Transparency Milestones: Set clear milestones for increasing transparency, such as public reporting of decisions and financial audits. </div>
 						</div>
-						<div className="w-[375px] h-[375px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="w-[371px] h-[371px] bg-black m-[2px] rounded-full font-molengo text-2xl px-3 pt-[35%] text-center">Feedback Mechanisms: Establish regular channels for community feedback and incorporate it into decision-making processes.</div>
+						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Feedback Mechanisms: Establish regular channels for community feedback and incorporate it into decision-making processes.</div>
 						</div>
-						<div className="w-[375px] h-[375px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="w-[371px] h-[371px] bg-black m-[2px] rounded-full font-molengo text-2xl px-3 pt-[35%] text-center">Proposal Thresholds: Define thresholds for proposal submission and approval, ensuring only well-supported initiatives move forward.</div>
+						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Proposal Thresholds: Define thresholds for proposal submission and approval, ensuring only well-supported initiatives move forward.</div>
 						</div>
-						<div className="w-[375px] h-[375px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="w-[371px] h-[371px] bg-black m-[2px] rounded-full font-molengo text-2xl px-3 pt-[35%] text-center">Accountability Measures: Implement penalties or corrective actions for committee members who fail to perform or act against the community’s interests.</div>
+						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Accountability Measures: Implement penalties or corrective actions for committee members who fail to perform or act against the community’s interests.</div>
 						</div>
 					</div>
-				</div> */}
+				</div>
 				<div className="flex lg:flex-row flex-col-reverse justify-between 3xl:my-[155px] laptop:my-[100px] my-[48px] 3xl:ml-[176px] laptop:ml-[100px] sm:ml-[70px] ml-[48px]">
 					<div className="flex-1 font-molengo">
 						<h1 className="font-bold text-primary laptop:text-[82px] sm:text-[50px] text-[36px] font-palanquin">Tokenomics</h1>
