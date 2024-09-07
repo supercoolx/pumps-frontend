@@ -79,18 +79,18 @@ function App() {
 				</div>
 				<div className="flex flex-col items-center">
 					<div className="lg:flex items-center lg:flex-row flex-wrap gap-[92px] mt-[186px] w-full px-10 justify-center">
-						<div className="bg-white relative mx-auto lg:mx-0 flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
-							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#b72346] to-[#c5882d] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
+						<div className="bg-white relative mx-auto lg:mx-0 flex items-center justify-center flex-1 max-w-[627px] sm:h-[320px] h-[240px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
+							<p style={{ WebkitTextFillColor: 'transparent' }} className="sm:text-[30px] text-[16px] bg-clip-text bg-gradient-to-l from-[#b72346] to-[#c5882d] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
 							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/fire.svg" className="h-[50px]" alt="" /></div>
 						</div>
-						<div className="bg-white relative mx-auto lg:mx-0 lg:mt-0 mt-[61px] flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
-							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#4431ba] to-[#979dd8] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
+						<div className="bg-white relative mx-auto lg:mx-0 lg:mt-0 mt-[61px] flex items-center justify-center flex-1 max-w-[627px] sm:h-[320px] h-[280px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
+							<p style={{ WebkitTextFillColor: 'transparent' }} className="sm:text-[30px] text-[16px] bg-clip-text bg-gradient-to-l from-[#4431ba] to-[#979dd8] font-inter text-center font-bold">Pumps will have an NFT marketplace<br/>where purchases award 80% to the<br/>creator and 20% gets burned.</p>
 							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/people.svg" className="h-[50px]" alt="" /></div>
 						</div>
 					</div>
 					<div className="flex justify-center w-full px-10">
-						<div className="bg-white relative flex items-center mt-[61px] justify-center flex-1 lg:max-w-[816px] max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
-							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#30ae35] to-[#236d49] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
+						<div className="bg-white relative flex items-center mt-[61px] justify-center flex-1 lg:max-w-[816px] max-w-[627px] sm:h-[320px] h-[400px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
+							<p style={{ WebkitTextFillColor: 'transparent' }} className="sm:text-[30px] text-[16px] bg-clip-text bg-gradient-to-l from-[#30ae35] to-[#236d49] font-inter text-center font-bold">Twitter post bot, submit a meme and a burn<br/>offering via our website. Your request will be<br/>approved by a $pumps committee and if<br/> accepted your tokens are burned and your<br/> meme and post is automatically posted on<br/> our twitter.</p>
 							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/weight.svg" className="h-[50px]" alt="" /></div>
 						</div>
 					</div>
@@ -103,11 +103,11 @@ function App() {
 					<img src="./imgs/coin1.png" className="translate-y-[80%] xl:h-[150px] lg:h-[120px] md:h-[100px] h-[80px]" alt="" />
 					<img src="./imgs/line.svg" className="w-[80%] flex-1 text-[#9d8d00]" alt="" />
 				</div>
-				<div className="text-center font-molengo">
+				<div className="text-center font-molengo sm:mt-0 mt-12">
 					<p className="text-[30px] leading-[61px]">Governance</p>
 					<h1 className="font-bold text-primary mt-[3px] lg:text-6xl sm:text-5xl text-4xl font-palanquin">Governance of the $Pumps Token</h1>
 					<p className="sm:text-[37px] text-2xl sm:mt-[56px] mt-8 leading-[62px]">Phased Committee-Based Governance Model</p>
-					<p className="sm:mt-[20px] mt-3 sm:text-[30px] text-xl laptop:mx-[261px] sm:mx-[100px] mx-5">The governance of the $Pumps token is designed to evolve with the growth and maturity of our community. Initially, committees will be formed with a focus on expediency and effectiveness, gradually transitioning to a more transparent and formal governance structure. This phased approach ensures both quick decision-making and long-term stability.</p>
+					<p className="sm:mt-[20px] mt-3 sm:text-3xl text-xl laptop:mx-[261px] sm:mx-[100px] mx-5">The governance of the $Pumps token is designed to evolve with the growth and maturity of our community. Initially, committees will be formed with a focus on expediency and effectiveness, gradually transitioning to a more transparent and formal governance structure. This phased approach ensures both quick decision-making and long-term stability.</p>
 					<div className="flex justify-end">
 						<img src="./imgs/coin2.png" className="h-[95px] mt-[32px] mr-[114px]" alt="" />
 					</div>
@@ -206,13 +206,13 @@ function App() {
 				</div>
 				<div>
 					<div className="relative top-[540px]">
-						<img className="absolute left-0 w-40 h-40" src="./imgs/coin1.png" alt="" />
+						<img className="absolute left-0 lg:w-40 w-20 lg:h-40 h-20" src="./imgs/coin1.png" alt="" />
 					</div>
 					<div className="mt-[128px] flex justify-center flex-wrap">
 						<h1 className="w-10/12 text-4xl font-bold text-center sm:text-6xl text-primary font-palanquin">Safeguards and Mechanisms</h1>
 						<div className="mt-[100px] flex justify-center flex-wrap gap-[70px] w-11/12">
 							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</div>
+								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center ">Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</div>
 							</div>
 							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
 								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Transparency Milestones: Set clear milestones for increasing transparency, such as public reporting of decisions and financial audits. </div>
@@ -267,7 +267,7 @@ function App() {
 							</div>
 						</div>
 					</div>
-					<div>
+					<div className="flex lg:justify-normal justify-center ">
 						<img src="./imgs/img5.png" className="laptop:h-[655px] sm:h-[480px] h-655px 3xl:mr-[190px] laptop:mr-[50px] mr-[40px]" alt="" />
 					</div>
 				</div>
@@ -313,8 +313,8 @@ function App() {
 				</div>
 				<div className="font-molengo mt-[57px] lg:pb-[170px] pb-[50px] bg-[#201f1c] text-[30px] mx-[39px] border-2 border-opacity-[12%] border-white rounded-[40px]">
 					<div className="absolute right-0 -translate-y-[50%] flex items-start">
-						<img src="./imgs/coin2.png" className="w-[184px] h-[184px] translate-x-16" alt="" />
-						<img src="./imgs/coin1.png" className="w-40 h-40 translate-y-12" alt="" />
+						<img src="./imgs/coin2.png" className="sm:w-[184px] w-[92px] sm:h-[184px] h-[92px] translate-x-16" alt="" />
+						<img src="./imgs/coin1.png" className="sm:w-40 w-20 sm:h-40 h-20 translate-y-12" alt="" />
 					</div>
 					<div className="absolute -left-28 flex items-start translate-y-[1000px] tr">
 						<img src="./imgs/coin1.png" className="w-40 h-40 translate-y-12" alt="" />
