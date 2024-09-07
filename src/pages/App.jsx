@@ -69,8 +69,8 @@ function App() {
 						<img src="./imgs/coin3.png" className="laptop:h-[450px] lg:h-[300px] h-[150px]" alt="" />
 					</div>
 				</div>
-				{/* <div className="flex flex-col items-center">
-					<div className="flex flex-wrap gap-10 mt-[186px] w-full px-10 justify-center">
+				<div className="flex flex-col items-center">
+					<div className="flex flex-col items-center lg:flex-row flex-wrap gap-10 mt-[186px] w-full px-10 justify-center">
 						<div className="bg-white relative flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-opacity-[12%] border-white rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#b72346] to-[#c5882d] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
 							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-opacity-[12%]"><img src="./imgs/fire.svg" className="h-[50px]" alt="" /></div>
@@ -80,13 +80,13 @@ function App() {
 							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-opacity-[12%]"><img src="./imgs/people.svg" className="h-[50px]" alt="" /></div>
 						</div>
 					</div>
-					<div className="flex justify-center w-full">
+					<div className="flex justify-center w-full px-10">
 						<div className="bg-white relative flex items-center mt-[61px] justify-center flex-1 max-w-[816px] h-[320px] bg-opacity-[8%] border-2 border-opacity-[12%] border-white rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#30ae35] to-[#236d49] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
 							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-opacity-[12%]"><img src="./imgs/weight.svg" className="h-[50px]" alt="" /></div>
 						</div>
 					</div>
-				</div> */}
+				</div>
 				{/* <div className="flex items-center justify-between -mt-[19%]">
 					<h1 className="text-6xl ml-[192px] font-semibold font-palanquin text-primary">Roadmap</h1>
 					<img src="./imgs/img4.png" className="h-[812px]" alt="" />
