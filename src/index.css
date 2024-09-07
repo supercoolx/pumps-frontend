@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Inter';
+        src: url('./assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf');
+    }
+
+    @font-face {
+        font-family: 'League';
+        src: url('./assets/fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf');
+    }
+
+    @font-face {
+        font-family: 'Molengo';
+        src: url('./assets/fonts/Molengo/Molengo-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'Outfit';
+        src: url('./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf');
+    }
+
+    @font-face {
+        font-family: 'Palanquin';
+        src: url('./assets/fonts/Palanquin_Dark/PalanquinDark-Regular.ttf');
+    }
+}
+
+body {
+    background-color: black;
+    color: #d8dedf;
+}
