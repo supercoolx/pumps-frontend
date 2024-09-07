@@ -104,11 +104,11 @@ function App() {
 						<img src="./imgs/coin2.png" className="h-[95px] mt-[32px] mr-[114px]" alt="" />
 					</div>
 				</div>
-				{/* <div className="font-molengo">
-					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[197px] font-bold opacity-[39%] font-league text-transparent text-[188px]">PHASE 1</div>
-					<div className="bg-[#201f1c] z-10 pb-[118px] text-[30px] mx-[180px] border-2 border-opacity-[12%] border-white rounded-[40px] pl-[82px] -mt-[120px]">
-						<h1 className="text-6xl font-bold text-center text-primary font-palanquin mt-[74px]">Initial Formation</h1>
-						<p className="mt-[65px] text-primary text-[30px]">Mechanism:</p>
+				<div className="font-molengo">
+					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[10%] font-bold opacity-[39%] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 1</div>
+					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] 3xl:-mt-[120px] 2xl:-mt-[95px] xl:-mt-[75px] lg:-mt-[55px] md:-mt-[33px]">
+						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold text-center text-primary font-palanquin mt-[74px]">Initial Formation</h1>
+						<p className="mt-[65px] text-primary sm:text-[30px] text-2xl">Mechanism:</p>
 						<p className="mt-[15px]">In the initial phase, the governance committees will be composed of trusted and knowledgeable individuals from the Runesbridge Airdrop Guild and the $Pumps community. These committees will be formed opaquely to expedite critical early decisions and set up the foundational governance structures.</p>
 						<p className="mt-[47px] text-primary">Committee Composition:</p>
 						<div className="mt-[15px]">
@@ -125,12 +125,12 @@ function App() {
 							<li>Committees will have broad authority to make necessary decisions during the initial phase.</li>
 						</div>
 					</div>
-				</div> */}
-				{/* <div className="font-molengo mt-[135px]">
-					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[357px] font-bold opacity-[39%] leading-[87px] font-league text-transparent text-[188px]">PHASE 2</div>
-					<div className="bg-[#201f1c] z-10 pb-[118px] text-[30px] mx-[180px] border-2 border-opacity-[12%] border-white rounded-[40px] pl-[82px] -mt-[30px]">
-						<h1 className="text-6xl font-bold text-center text-primary font-palanquin mt-[74px]">Transition to Transparency</h1>
-						<p className="mt-[65px] text-primary text-[30px]">Mechanism:</p>
+				</div>
+				<div className="font-molengo mt-[135px]">
+					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[20%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 2</div>
+					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
+						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold text-center text-primary font-palanquin mt-[74px]">Transition to Transparency</h1>
+						<p className="mt-[65px] text-primary sm:text-[30px] text-2xl">Mechanism:</p>
 						<p className="mt-[15px]">As the community grows, we will introduce transparency and formalization in the committee selection and decision-making processes. Committee membership will be expanded to include broader community representation through a nomination and vetting process.</p>
 						<p className="mt-[47px] text-primary">Steps:</p>
 						<div className="mt-[15px]">
@@ -144,12 +144,12 @@ function App() {
 							<li>Establish formal processes and structures for long-term stability</li>
 						</div>
 					</div>
-				</div> */}
-				{/* <div className="font-molengo mt-[135px]">
-					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[617px] font-bold opacity-[39%] leading-[87px] font-league text-transparent text-[188px]">PHASE 3</div>
-					<div className="bg-[#201f1c] z-10 pb-[118px] text-[30px] mx-[180px] border-2 border-opacity-[12%] border-white rounded-[40px] pl-[82px] -mt-[30px]">
-						<h1 className="text-6xl font-bold text-center text-primary font-palanquin mt-[74px]">Full Transparency and Strict Governance</h1>
-						<p className="mt-[65px] text-primary text-[30px]">Mechanism:</p>
+				</div>
+				<div className="font-molengo mt-[135px]">
+					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[30%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 3</div>
+					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
+						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold text-center text-primary font-palanquin mt-[74px]">Full Transparency and Strict Governance</h1>
+						<p className="mt-[65px] text-primary sm:text-[30px] text-2xl">Mechanism:</p>
 						<p className="mt-[15px]">In the final phase, we will fully transition to a transparent and formal governance model with strict rules and processes. This includes clear criteria and procedures for committee membership, regular elections, and the establishment of sub-committees or working groups for specialized tasks.</p>
 						<p className="mt-[47px] text-primary">Steps:</p>
 						<div>
@@ -164,12 +164,12 @@ function App() {
 							<li>Provide clear roles and responsibilities, reducing the risk of mismanagement</li>
 						</div>
 					</div>
-				</div> */}
-				{/* <div className="font-molengo mt-[135px]">
-					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[765px] font-bold opacity-[39%] leading-[87px] font-league text-transparent text-[188px]">PHASE 4</div>
-					<div className="bg-[#201f1c] z-10 pb-[118px] text-[30px] mx-[180px] border-2 border-opacity-[12%] border-white rounded-[40px] pl-[82px] -mt-[30px]">
-						<h1 className="text-6xl font-bold text-center text-primary font-palanquin mt-[74px]">Staking and Reward System</h1>
-						<p className="mt-[65px] text-primary text-[30px]">Mechanism:</p>
+				</div>
+				<div className="font-molengo mt-[135px]">
+					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[40%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 4</div>
+					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
+						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold text-center text-primary font-palanquin mt-[74px]">Staking and Reward System</h1>
+						<p className="mt-[65px] text-primary sm:text-[30px] text-2xl">Mechanism:</p>
 						<p className="mt-[15px]">To incentivize participation and reward those who serve on the governance committees, we will implement a staking and reward system.</p>
 						<p className="mt-[47px] text-primary">Steps:</p>
 						<div>
@@ -183,7 +183,7 @@ function App() {
 							<li>Reward commitment and valuable contributions to the community</li>
 						</div>
 					</div>
-				</div> */}
+				</div>
 				{/* <div className="mt-[128px]">
 					<h1 className="text-6xl font-bold text-center text-primary font-palanquin">Safeguards and Mechanisms</h1>
 					<div className="mt-[100px] flex justify-center flex-wrap gap-[70px]">
@@ -208,35 +208,35 @@ function App() {
 					<div className="flex-1 font-molengo">
 						<h1 className="font-bold text-primary laptop:text-[82px] sm:text-[50px] text-[36px] font-palanquin">Tokenomics</h1>
 						<div className="laptop:text-[32px] text-[22px] laptop:mt-[73px] mt-[36px] laptop:space-y-[17px] space-y-[12px]">
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">Name:</div>
 								<div className="flex-[3]">Pumps Go To The Gym</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">ERC-20 Ticker:</div>
 								<div className="flex-[3]">$Pumps</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">BTC Runes Ticker:</div>
 								<div className="flex-[3]">$Pumps*Go*To*The*Gym</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">Total Tokens:</div>
 								<div className="flex-[3]">100,000,000</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">ERC20 Launch Date:</div>
 								<div className="flex-[3]">April 1, 2024</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">BTC Runes Launch Date:</div>
 								<div className="flex-[3]">February 1, 2025</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">Listing Date:</div>
 								<div className="flex-[3]">October 1, 2024</div>
 							</div>
-							<div className="flex sm:flex-row flex-col">
+							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">Powered By:</div>
 								<div className="flex-[3]">RunesBridge Airdrop Guild</div>
 							</div>
