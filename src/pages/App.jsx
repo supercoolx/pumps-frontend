@@ -18,22 +18,22 @@ function App() {
 						<img src="./imgs/coin2.png" alt="img" className="absolute h-10 md:h-auto mobile:right-10 right-5" />
 					</div>
 				</div>
-				{/* <div className="mt-[95px]">
-					<div className="flex items-center">
-						<div className="flex-1 ml-[137px]">
+				<div className="mt-[95px]">
+					<div className="flex flex-col items-center laptop:flex-row">
+						<div className="flex-1 lg:px-[137px] px-5 laptop:pr-0">
 							<p className="font-molengo text-[30px]">About Us</p>
-							<h1 className="text-6xl font-bold mt-[7px] leading-[77px] text-primary font-palanquin">$Pumps is Launched on October 1st 2024</h1>
-							<p className="text-[37px] mt-[33px] leading-[44px] text-justify font-molengo">This historic event led to $Pumps being awesome and more and more people started going to the gym and getting Pumped. $Pumps is the number one meme coin for people who respect themselves</p>
-							<p className="text-[37px] mt-[24px] leading-[44px] text-justify font-molengo">$Pumps is powered by Runesbridge.xyz and produced by the Runesbridge Airdrop Guild.</p>
+							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold mt-[7px] sm:leading-[77px] text-primary font-palanquin">$Pumps is Launched on October 1st 2024</h1>
+							<p className="sm:text-[37px] text-2xl mt-[33px] leading-[44px] text-justify font-molengo">This historic event led to $Pumps being awesome and more and more people started going to the gym and getting Pumped. $Pumps is the number one meme coin for people who respect themselves</p>
+							<p className="sm:text-[37px] text-2xl mt-[24px] leading-[44px] text-justify font-molengo">$Pumps is powered by Runesbridge.xyz and produced by the Runesbridge Airdrop Guild.</p>
 						</div>
-						<div className="-ml-60">
-							<img src="./imgs/img2.png" className="h-[857px]" alt="" />
+						<div className="flex justify-center w-full laptop:-ml-60 md:block md:w-auto">
+							<img src="./imgs/img2.png" className="md:h-[857px] mobile:h-[500px] h-[350px]" alt="" />
 						</div>
 					</div>
 					<div className="w-full -mt-20">
-						<img src="./imgs/coin1.png" className="ml-[40%] h-[160px]" alt="" />
+						<img src="./imgs/coin1.png" className="ml-[40%] md:h-[160px] h-[80px]" alt="" />
 					</div>
-				</div> */}
+				</div>
 				{/* <div className="flex items-center gap-[34px] mt-[61px]">
 					<div className="-ml-60">
 						<img src="./imgs/img3.png" className="h-[857px]" alt="" />
