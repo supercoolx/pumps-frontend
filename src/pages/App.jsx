@@ -87,23 +87,23 @@ function App() {
 						</div>
 					</div>
 				</div>
-				{/* <div className="flex items-center justify-between -mt-[19%]">
-					<h1 className="text-6xl ml-[192px] font-semibold font-palanquin text-primary">Roadmap</h1>
-					<img src="./imgs/img4.png" className="h-[812px]" alt="" />
-				</div> */}
-				{/* <div className="relative flex items-end justify-between mt-[234px] pr-[5%] pl-[81px]">
-					<img src="./imgs/coin1.png" className="translate-y-[80%] h-[150px]" alt="" />
-					<img src="./imgs/line.png" className="w-[80%] flex-1" alt="" />
-				</div> */}
-				{/* <div className="text-center font-molengo">
+				<div className="flex lg:flex-row flex-col-reverse  lg:items-center items-end justify-between -mt-[15%]">
+					<h1 className="lg:text-6xl sm:text-5xl text-4xl ml-[192px] font-semibold font-palanquin text-primary lg:w-auto w-full px-10">Roadmap</h1>
+					<img src="./imgs/img4.png" className="2xl:h-[812px] laptop:h-[700px] xl:h-[600px] lg:h-[500px] md:h-[400px]" alt="" />
+				</div>
+				<div className="relative flex items-end justify-between xl:mt-[234px] md:pr-[5%] pr-5 pl-[81px]">
+					<img src="./imgs/coin1.png" className="translate-y-[80%] xl:h-[150px] lg:h-[120px] md:h-[100px] h-[80px]" alt="" />
+					<img src="./imgs/line.svg" className="w-[80%] flex-1 text-[#9d8d00]" alt="" />
+				</div>
+				<div className="text-center font-molengo">
 					<p className="text-[30px] leading-[61px]">Governance</p>
-					<h1 className="font-bold text-primary mt-[3px] text-6xl font-palanquin">Governance of the $Pumps Token</h1>
-					<p className="text-[37px] mt-[56px] leading-[62px]">Phased Committee-Based Governance Model</p>
-					<p className="mt-[20px] text-[30px] mx-[261px]">The governance of the $Pumps token is designed to evolve with the growth and maturity of our community. Initially, committees will be formed with a focus on expediency and effectiveness, gradually transitioning to a more transparent and formal governance structure. This phased approach ensures both quick decision-making and long-term stability.</p>
+					<h1 className="font-bold text-primary mt-[3px] lg:text-6xl sm:text-5xl text-4xl font-palanquin">Governance of the $Pumps Token</h1>
+					<p className="sm:text-[37px] text-2xl sm:mt-[56px] mt-8 leading-[62px]">Phased Committee-Based Governance Model</p>
+					<p className="sm:mt-[20px] mt-3 sm:text-[30px] text-xl laptop:mx-[261px] sm:mx-[100px] mx-5">The governance of the $Pumps token is designed to evolve with the growth and maturity of our community. Initially, committees will be formed with a focus on expediency and effectiveness, gradually transitioning to a more transparent and formal governance structure. This phased approach ensures both quick decision-making and long-term stability.</p>
 					<div className="flex justify-end">
 						<img src="./imgs/coin2.png" className="h-[95px] mt-[32px] mr-[114px]" alt="" />
 					</div>
-				</div> */}
+				</div>
 				{/* <div className="font-molengo">
 					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[197px] font-bold opacity-[39%] font-league text-transparent text-[188px]">PHASE 1</div>
 					<div className="bg-[#201f1c] z-10 pb-[118px] text-[30px] mx-[180px] border-2 border-opacity-[12%] border-white rounded-[40px] pl-[82px] -mt-[120px]">
