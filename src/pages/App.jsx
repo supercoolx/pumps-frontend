@@ -8,14 +8,14 @@ function App() {
 			<Header />
 			<div className="mb-10">
 				<div className="bg-[url('/imgs/img1.png')] bg-top bg-cover bg-no-repeat text-center">
-					<h1 className="font-semibold pt-[33%] laptop:text-[74px] leading-[134px] text-6xl font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
-					<h2 className="laptop:text-[45px] text-4xl">They promised to send you to the Moon. Pumps will send <br /> you to the gym!</h2>
-					<h3 className="laptop:text-[37px] mt-[47px]">Powered By <span className="text-primary">Runesbridge</span></h3>
-					<h3 className="laptop:text-[33px]">A V-Guy Production</h3>
-					<button className="text-[#161614] mt-[47px] px-[47px] py-[30px] rounded-md bg-primary font-outfit text-[25px] font-semibold">Contract Address</button>
+					<h1 className="font-semibold pt-[33%] mx-3 laptop:text-[74px] md:text-6xl mobile:text-4xl text-2xl  font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
+					<h2 className="laptop:text-[45px] md:text-4xl text-2xl laptop:px-72 lg:px-500 px-10 mt-[47px] leading-snug">They promised to send you to the Moon. Pumps will send you to the gym!</h2>
+					<h3 className="laptop:text-[37px] md:text-3xl sm:text-xl mt-[47px]">Powered By <span className="text-primary">Runesbridge</span></h3>
+					<h3 className="laptop:text-[33px] md:text-2xl ">A V-Guy Production</h3>
+					<button className="relative bottom-0 translate-y-[50%] text-[#161614] mt-[47px] lg:px-[47px] lg:py-[30px] md:px-8 md:py-5 px-5 py-3 rounded-md bg-primary font-outfit md:text-[25px] text-lg font-semibold">Contract Address</button>
 					<div className="relative bottom-0">
-						<img src="./imgs/coin1.png" alt="img" className="absolute left-0 -translate-y-[100%]" />
-						<img src="./imgs/coin2.png" alt="img" className="absolute right-10" />
+						<img src="./imgs/coin1.png" alt="img" className="absolute md:h-auto h-10 left-0 -translate-y-[100%]" />
+						<img src="./imgs/coin2.png" alt="img" className="absolute h-10 md:h-auto mobile:right-10 right-5" />
 					</div>
 				</div>
 				{/* <div className="mt-[95px]">

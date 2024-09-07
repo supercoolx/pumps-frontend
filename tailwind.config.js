@@ -30,6 +30,7 @@ export default {
         primary: '#F7931A'
       },
       screens: {
+        'mobile': '425px',
         'laptop': '1440px',
         '3xl': '1700px'
       }
