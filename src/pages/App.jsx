@@ -7,9 +7,9 @@ function App() {
 		<div>
 			<Header />
 			<div className="mb-10">
-				<div className="bg-[url('/imgs/img1.png')] bg-top bg-contain bg-no-repeat text-center">
-					<h1 className="font-semibold pt-[30%] text-[74px] font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
-					<h2 className="laptop:text-[45px]">They promised to send you to the Moon. Pumps will send <br /> you to the gym!</h2>
+				<div className="bg-[url('/imgs/img1.png')] bg-top bg-cover bg-no-repeat text-center">
+					<h1 className="font-semibold pt-[33%] laptop:text-[74px] leading-[134px] text-6xl font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
+					<h2 className="laptop:text-[45px] text-4xl">They promised to send you to the Moon. Pumps will send <br /> you to the gym!</h2>
 					<h3 className="laptop:text-[37px] mt-[47px]">Powered By <span className="text-primary">Runesbridge</span></h3>
 					<h3 className="laptop:text-[33px]">A V-Guy Production</h3>
 					<button className="text-[#161614] mt-[47px] px-[47px] py-[30px] rounded-md bg-primary font-outfit text-[25px] font-semibold">Contract Address</button>
