@@ -19,56 +19,56 @@ function App() {
 					</div>
 				</div>
 				<div className="mt-[95px]">
-					<div className="flex flex-col items-center laptop:flex-row">
-						<div className="flex-1 lg:px-[137px] px-5 laptop:pr-0">
+					<div className="flex flex-col items-center lg:flex-row">
+						<div className="flex-1 laptop:px-[137px] px-5 laptop:pr-0">
 							<p className="font-molengo text-[30px]">About Us</p>
 							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold mt-[7px] sm:leading-[77px] text-primary font-palanquin">$Pumps is Launched on October 1st 2024</h1>
-							<p className="sm:text-[37px] text-2xl mt-[33px] leading-[44px] text-justify font-molengo">This historic event led to $Pumps being awesome and more and more people started going to the gym and getting Pumped. $Pumps is the number one meme coin for people who respect themselves</p>
-							<p className="sm:text-[37px] text-2xl mt-[24px] leading-[44px] text-justify font-molengo">$Pumps is powered by Runesbridge.xyz and produced by the Runesbridge Airdrop Guild.</p>
+							<p className="sm:text-[37px] text-2xl mt-[33px] sm:leading-[44px] text-justify font-molengo">This historic event led to $Pumps being awesome and more and more people started going to the gym and getting Pumped. $Pumps is the number one meme coin for people who respect themselves</p>
+							<p className="sm:text-[37px] text-2xl mt-[24px] sm:leading-[44px] text-justify font-molengo">$Pumps is powered by Runesbridge.xyz and produced by the Runesbridge Airdrop Guild.</p>
 						</div>
-						<div className="flex justify-center w-full laptop:-ml-60 md:block md:w-auto">
-							<img src="./imgs/img2.png" className="md:h-[857px] mobile:h-[500px] h-[350px]" alt="" />
+						<div className="flex justify-center w-full lg:-ml-60 md:block md:w-auto">
+							<img src="./imgs/img2.png" className="laptop:h-[857px] mobile:h-[500px] h-[350px]" alt="" />
 						</div>
 					</div>
 					<div className="w-full -mt-20">
 						<img src="./imgs/coin1.png" className="ml-[40%] md:h-[160px] h-[80px]" alt="" />
 					</div>
 				</div>
-				<div className="flex flex-col-reverse 2xl:flex-row items-start gap-[34px] mt-[109px]">
+				<div className="flex flex-col-reverse lg:flex-row laptop:items-start items-end gap-[34px] mt-[109px]">
 					<div className="flex justify-center flex-1 w-full">
-						<img src="./imgs/img3.png" className="2xl:w-full w-[50%]" alt="" />
+						<img src="./imgs/img3.png" className="lg:w-full w-[50%]" alt="" />
 					</div>
-					<div className="flex-1 mx-[86px] 2xl:ml-0">
-						<h1 className="text-6xl font-bold leading-[108px] text-primary font-palanquin">Feel the Burn</h1>
-						<p className="text-[37px] mt-[10px] leading-[44px] text-justify font-molengo">$Pumps Go To The Gym functions with a “Proof Of Burn” (POB) system. We will build toys which are fun inexpensive and cause people to burn tokens while having fun. Post a meme, burn some $Pumps, advertise your wellness or fitness product by burning some $pumps. Wanna buy a wacky gym meme that allows you the right to modify and commercialize as you see fit, burn some $pumps as well as pay the creator.</p>
+					<div className="flex-1 laptop:mx-[86px] mx-5 lg:ml-0">
+						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold leading-[108px] text-primary font-palanquin">Feel the Burn</h1>
+						<p className="sm:text-[37px] text-2xl mt-[10px] sm:leading-[44px] text-justify font-molengo">$Pumps Go To The Gym functions with a “Proof Of Burn” (POB) system. We will build toys which are fun inexpensive and cause people to burn tokens while having fun. Post a meme, burn some $Pumps, advertise your wellness or fitness product by burning some $pumps. Wanna buy a wacky gym meme that allows you the right to modify and commercialize as you see fit, burn some $pumps as well as pay the creator.</p>
 					</div>
 				</div>
-				{/* <div>
+				<div>
 					<div className="absolute right-[44px] -translate-y-[30%] flex items-start">
 						<img src="./imgs/coin2.png" className="translate-x-1 -translate-y-5" alt="" />
 						<img src="./imgs/coin1.png" alt="" />
 					</div>
-					<div className="mt-[67px] bg-[url('/imgs/gym.png')] flex justify-end bg-cover">
-						<div className="pt-[200px] max-w-[968px] mr-[10%]">
-							<h1 className="text-6xl font-semibold text-primary font-palanquin">Burn Factory</h1>
-							<p className="pt-[13px] font-molengo text-[30px] leading-[39px] text-justify">Did someone promise to bring you to the moon and they didn’t deliver? $Pumps will send you to the Gym. Going to the gym is healthy so telling everyone about Pumps might make people healthier</p>
-							<p className="font-molengo pt-[36px] text-[30px] leading-[39px] text-justify">We believe that anyone can understand and get onboard with $Pumps because we are <span className='text-primary'>“Powered by Runesbridge”</span> to be both <span className='text-primary'>ERC-20 and BTC Runes</span>.</p>
+					<div className="mt-[67px] bg-[url('/imgs/gym.png')] flex xl:justify-end justify-center bg-cover bg-center">
+						<div className="pt-[200px] flex-1 max-w-[968px] xl:mr-[10%] sm:mx-10 mx-5">
+							<h1 className="text-4xl font-semibold lg:text-6xl sm:text-5xl text-primary font-palanquin">Burn Factory</h1>
+							<p className="pt-[13px] font-molengo sm:text-[30px] text-2xl sm:leading-[39px] text-justify">Did someone promise to bring you to the moon and they didn’t deliver? $Pumps will send you to the Gym. Going to the gym is healthy so telling everyone about Pumps might make people healthier</p>
+							<p className="font-molengo pt-[36px] sm:text-[30px] text-2xl sm:leading-[39px] text-justify">We believe that anyone can understand and get onboard with $Pumps because we are <span className='text-primary'>“Powered by Runesbridge”</span> to be both <span className='text-primary'>ERC-20 and BTC Runes</span>.</p>
 							<div className="mt-[57px] mb-[89px]">
-								<div className="flex gap-[10px]">
-									<button className="bg-white rounded-2xl flex-[1] px-[78px] py-[24px] font-molengo text-primary text-[30px] bg-opacity-[12%]">$Pumps on Telegram</button>
-									<button className="bg-white rounded-2xl flex-[2] py-[24px] font-molengo text-primary text-[30px] bg-opacity-[12%]">Updates on Twitter</button>
+								<div className="flex lg:flex-row flex-col gap-[10px]">
+									<button className="bg-white rounded-2xl flex-[1] text-center sm:py-[24px] py-4 font-molengo text-primary md:text-[30px] text-2xl bg-opacity-[12%]">$Pumps on Telegram</button>
+									<button className="bg-white rounded-2xl flex-[2] sm:py-[24px] py-4 font-molengo text-primary md:text-[30px] text-2xl bg-opacity-[12%]">Updates on Twitter</button>
 								</div>
-								<div className="flex gap-[10px] mt-[18px]">
-									<button className="bg-white rounded-2xl flex-[1] px-[78px] py-[24px] font-molengo text-primary text-[30px] bg-opacity-[12%]">FunBot on Twitter</button>
-									<button className="bg-white rounded-2xl flex-[2] py-[24px] font-molengo text-primary text-[30px] bg-opacity-[12%]">The Runesbridge AirDrop Guild (RAG)</button>
+								<div className="flex lg:flex-row flex-col gap-[10px] lg:mt-[18px] mt-[10px]">
+									<button className="bg-white rounded-2xl flex-[1] text-center sm:py-[24px] py-4 font-molengo text-primary md:text-[30px] text-2xl bg-opacity-[12%]">FunBot on Twitter</button>
+									<button className="bg-white rounded-2xl flex-[2] sm:py-[24px] py-4 font-molengo text-primary md:text-[30px] text-2xl bg-opacity-[12%]">The Runesbridge AirDrop Guild (RAG)</button>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="absolute -translate-y-[55%]">
-						<img src="./imgs/coin3.png" className="h-[450px]" alt="" />
+						<img src="./imgs/coin3.png" className="laptop:h-[450px] lg:h-[300px] h-[150px]" alt="" />
 					</div>
-				</div> */}
+				</div>
 				{/* <div className="flex flex-col items-center">
 					<div className="flex flex-wrap gap-10 mt-[186px] w-full px-10 justify-center">
 						<div className="bg-white relative flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-opacity-[12%] border-white rounded-[40px]">
