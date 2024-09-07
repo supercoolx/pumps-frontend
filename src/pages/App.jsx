@@ -70,20 +70,20 @@ function App() {
 					</div>
 				</div>
 				<div className="flex flex-col items-center">
-					<div className="flex flex-col items-center lg:flex-row flex-wrap gap-10 mt-[186px] w-full px-10 justify-center">
-						<div className="bg-white relative flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-opacity-[12%] border-white rounded-[40px]">
+					<div className="lg:flex items-center lg:flex-row flex-wrap gap-[92px] mt-[186px] w-full px-10 justify-center">
+						<div className="bg-white relative mx-auto lg:mx-0 flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#b72346] to-[#c5882d] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
-							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-opacity-[12%]"><img src="./imgs/fire.svg" className="h-[50px]" alt="" /></div>
+							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/fire.svg" className="h-[50px]" alt="" /></div>
 						</div>
-						<div className="bg-white relative flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-opacity-[12%] border-white rounded-[40px]">
+						<div className="bg-white relative mx-auto lg:mx-0 lg:mt-0 mt-[61px] flex items-center justify-center flex-1 max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#4431ba] to-[#979dd8] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
-							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-opacity-[12%]"><img src="./imgs/people.svg" className="h-[50px]" alt="" /></div>
+							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/people.svg" className="h-[50px]" alt="" /></div>
 						</div>
 					</div>
 					<div className="flex justify-center w-full px-10">
-						<div className="bg-white relative flex items-center mt-[61px] justify-center flex-1 max-w-[816px] h-[320px] bg-opacity-[8%] border-2 border-opacity-[12%] border-white rounded-[40px]">
+						<div className="bg-white relative flex items-center mt-[61px] justify-center flex-1 lg:max-w-[816px] max-w-[627px] h-[320px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="text-[30px] bg-clip-text bg-gradient-to-l from-[#30ae35] to-[#236d49] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
-							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-opacity-[12%]"><img src="./imgs/weight.svg" className="h-[50px]" alt="" /></div>
+							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/weight.svg" className="h-[50px]" alt="" /></div>
 						</div>
 					</div>
 				</div>
@@ -246,7 +246,7 @@ function App() {
 						<img src="./imgs/img5.png" className="laptop:h-[655px] sm:h-[480px] h-655px 3xl:mr-[190px] laptop:mr-[50px] mr-[40px]" alt="" />
 					</div>
 				</div>
-				<div className="flex sm:flex-row flex-col items-center">
+				<div className="flex flex-col items-center sm:flex-row">
 					<div className="mt-[47px]">
 						<img src="./imgs/img6.png" className="laptop:h-[622px] lg:h-[400px] sm:h-[250px] h-auto" alt="" />
 					</div>
@@ -290,8 +290,8 @@ function App() {
 					<h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-lg font-bold text-center text-primary font-palanquin lg:mt-[116px] sm:mt-[56px] mt-[30px]">Frequently Asked Questions</h1>
 					<div className="lg:mt-[111px] sm:mt-[56px] mt-[30px] sm:space-y-[20px] space-y-[10px] text-[30px] font-molengo lg:px-[132px] sm:px-[60px] px-[12px]">
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">Why is $Pumps so great?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">Why is $Pumps so great?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 							<div className="sm:mt-[35px] mt-[14px] sm:text-2xl text-[12px]">
@@ -299,50 +299,50 @@ function App() {
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">How can I improve my life?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">How can I improve my life?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">If you are having lower back pain?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">If you are having lower back pain?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">If you are experiencing awkwardness discussing crypto with your loved ones ?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">If you are experiencing awkwardness discussing crypto with your loved ones ?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">If you are experiencing stress?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">If you are experiencing stress?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness.</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness.</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">Don’t feel comfortable speaking with “that side of the family” because of politics ?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">Don’t feel comfortable speaking with “that side of the family” because of politics ?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between sm:text-3xl text-sm">
-								<h2 className="text-primary px-2">So there was this guy named Dave, right?</h2>
+							<div className="flex items-center justify-between text-sm sm:text-3xl">
+								<h2 className="px-2 text-primary">So there was this guy named Dave, right?</h2>
 								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
 							</div>
 						</div>
