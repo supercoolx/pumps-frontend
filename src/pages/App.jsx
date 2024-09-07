@@ -6,7 +6,7 @@ function App() {
 	return (
 		<div>
 			<Header />
-			<div className="mb-10">
+			<div className="mb-10 overflow-hidden">
 				<div className="bg-[url('/imgs/img1.png')] bg-top bg-cover bg-no-repeat text-center">
 					<h1 className="font-semibold pt-[33%] mx-3 laptop:text-[74px] md:text-6xl mobile:text-4xl text-2xl  font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
 					<h2 className="laptop:text-[45px] md:text-4xl text-2xl laptop:px-72 lg:px-500 px-10 mt-[47px] leading-snug">They promised to send you to the Moon. Pumps will send you to the gym!</h2>
@@ -18,9 +18,9 @@ function App() {
 						<img src="./imgs/coin2.png" alt="img" className="absolute h-10 md:h-auto mobile:right-10 right-5" />
 					</div>
 				</div>
-				<div className="mt-[95px]">
+				<div className="relative mt-[95px]">
 					<div className="flex flex-col items-center lg:flex-row">
-						<div className="flex-1 laptop:px-[137px] px-5 laptop:pr-0">
+						<div className="flex-1 laptop:px-[137px] md:px-20 px-5 laptop:pr-0">
 							<p className="font-molengo text-[30px]">About Us</p>
 							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold mt-[7px] sm:leading-[77px] text-primary font-palanquin">$Pumps is Launched on October 1st 2024</h1>
 							<p className="sm:text-[37px] text-2xl mt-[33px] sm:leading-[44px] text-justify font-molengo">This historic event led to $Pumps being awesome and more and more people started going to the gym and getting Pumped. $Pumps is the number one meme coin for people who respect themselves</p>
@@ -33,19 +33,27 @@ function App() {
 					<div className="w-full -mt-20">
 						<img src="./imgs/coin1.png" className="ml-[40%] md:h-[160px] h-[80px]" alt="" />
 					</div>
+					<div className="w-[1800px] h-[1800px] my-bg-gradient absolute -top-[100%] -z-10 -left-[50%]"></div>
+					<div className="w-[1800px] h-[1800px] my-bg-gradient absolute -top-[100%] -z-10 -right-[50%]"></div>
 				</div>
-				<div className="flex flex-col-reverse lg:flex-row laptop:items-start items-end gap-[34px] mt-[109px]">
-					<div className="flex justify-center flex-1 w-full">
-						<img src="./imgs/img3.png" className="lg:w-full w-[50%]" alt="" />
+				<div className="relative">
+					<div className="absolute top-0 flex justify-between w-full">
+						<img src="./imgs/img8.png" className="-translate-y-[30%] h-[475px]" alt="" />
+						<img src="./imgs/img7.png" className="-translate-y-[60%] h-[413px]" alt="" />
 					</div>
-					<div className="flex-1 laptop:mx-[86px] mx-5 lg:ml-0">
-						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold leading-[108px] text-primary font-palanquin">Feel the Burn</h1>
-						<p className="sm:text-[37px] text-2xl mt-[10px] sm:leading-[44px] text-justify font-molengo">$Pumps Go To The Gym functions with a “Proof Of Burn” (POB) system. We will build toys which are fun inexpensive and cause people to burn tokens while having fun. Post a meme, burn some $Pumps, advertise your wellness or fitness product by burning some $pumps. Wanna buy a wacky gym meme that allows you the right to modify and commercialize as you see fit, burn some $pumps as well as pay the creator.</p>
+					<div className="flex flex-col-reverse lg:flex-row laptop:items-start items-end gap-[34px] mt-[109px]">
+						<div className="flex justify-center flex-1 w-full">
+							<img src="./imgs/img3.png" className="lg:w-full w-[50%]" alt="" />
+						</div>
+						<div className="flex-1 laptop:mx-[86px] md:mx-20 mx-5 lg:ml-0">
+							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold leading-[108px] text-primary font-palanquin">Feel the Burn</h1>
+							<p className="sm:text-[37px] text-2xl mt-[10px] sm:leading-[44px] text-justify font-molengo">$Pumps Go To The Gym functions with a “Proof Of Burn” (POB) system. We will build toys which are fun inexpensive and cause people to burn tokens while having fun. Post a meme, burn some $Pumps, advertise your wellness or fitness product by burning some $pumps. Wanna buy a wacky gym meme that allows you the right to modify and commercialize as you see fit, burn some $pumps as well as pay the creator.</p>
+						</div>
 					</div>
 				</div>
-				<div>
+				<div> 
 					<div className="absolute right-[44px] -translate-y-[30%] flex items-start">
-						<img src="./imgs/coin2.png" className="translate-x-1 -translate-y-5" alt="" />
+						<img src="./imgs/coin2.png" className="translate-x-[51px] -translate-y-5 h-[116px]" alt="" />
 						<img src="./imgs/coin1.png" alt="" />
 					</div>
 					<div className="mt-[67px] bg-[url('/imgs/gym.png')] flex xl:justify-end justify-center bg-cover bg-center">
@@ -127,6 +135,9 @@ function App() {
 					</div>
 				</div>
 				<div className="font-molengo mt-[135px]">
+					<div className="relative inset-0">
+						<img className="absolute top-0 left-0 mt-[10%]" src="./imgs/coin2.png" alt="" />
+					</div>
 					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[20%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 2</div>
 					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
 						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold text-center text-primary font-palanquin mt-[74px]">Transition to Transparency</h1>
@@ -143,6 +154,9 @@ function App() {
 							<li>Increase community trust and involvement in governance</li>
 							<li>Establish formal processes and structures for long-term stability</li>
 						</div>
+					</div>
+					<div className="relative inset-0">
+						<img className="absolute bottom-0 right-0 w-40 h-40" src="./imgs/coin1.png" alt="" />
 					</div>
 				</div>
 				<div className="font-molengo mt-[135px]">
@@ -166,6 +180,9 @@ function App() {
 					</div>
 				</div>
 				<div className="font-molengo mt-[135px]">
+					<div className="relative inset-0">
+						<img className="absolute top-0 left-0 w-40 h-40" src="./imgs/coin1.png" alt="" />
+					</div>
 					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[40%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 4</div>
 					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
 						<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold text-center text-primary font-palanquin mt-[74px]">Staking and Reward System</h1>
@@ -183,24 +200,32 @@ function App() {
 							<li>Reward commitment and valuable contributions to the community</li>
 						</div>
 					</div>
+					<div className="relative inset-0">
+						<img className="absolute bottom-0 right-0 mt-[10%]" src="./imgs/coin2.png" alt="" />
+					</div>
 				</div>
-				<div className="mt-[128px] flex justify-center flex-wrap">
-					<h1 className="w-10/12 text-4xl font-bold text-center sm:text-6xl text-primary font-palanquin">Safeguards and Mechanisms</h1>
-					<div className="mt-[100px] flex justify-center flex-wrap gap-[70px] w-11/12">
-						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</div>
-						</div>
-						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Transparency Milestones: Set clear milestones for increasing transparency, such as public reporting of decisions and financial audits. </div>
-						</div>
-						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Feedback Mechanisms: Establish regular channels for community feedback and incorporate it into decision-making processes.</div>
-						</div>
-						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Proposal Thresholds: Define thresholds for proposal submission and approval, ensuring only well-supported initiatives move forward.</div>
-						</div>
-						<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
-							<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Accountability Measures: Implement penalties or corrective actions for committee members who fail to perform or act against the community’s interests.</div>
+				<div>
+					<div className="relative top-[540px]">
+						<img className="absolute left-0 w-40 h-40" src="./imgs/coin1.png" alt="" />
+					</div>
+					<div className="mt-[128px] flex justify-center flex-wrap">
+						<h1 className="w-10/12 text-4xl font-bold text-center sm:text-6xl text-primary font-palanquin">Safeguards and Mechanisms</h1>
+						<div className="mt-[100px] flex justify-center flex-wrap gap-[70px] w-11/12">
+							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Multi-Signature Wallets: Require multiple committee members to approve significant transactions, ensuring no single person has undue control.</div>
+							</div>
+							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Transparency Milestones: Set clear milestones for increasing transparency, such as public reporting of decisions and financial audits. </div>
+							</div>
+							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Feedback Mechanisms: Establish regular channels for community feedback and incorporate it into decision-making processes.</div>
+							</div>
+							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Proposal Thresholds: Define thresholds for proposal submission and approval, ensuring only well-supported initiatives move forward.</div>
+							</div>
+							<div className="sm:w-[375px] w-[300px] sm:h-[375px] h-[300px] bg-gradient-to-tr from-primary from-10% to-80% to-transparent rounded-full">
+								<div className="sm:w-[371px] w-[296px] sm:h-[371px] h-[296px] bg-black m-[2px] rounded-full font-molengo sm:text-2xl text-xl px-3 pt-[35%] text-center">Accountability Measures: Implement penalties or corrective actions for committee members who fail to perform or act against the community’s interests.</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -287,6 +312,13 @@ function App() {
 					</div>
 				</div>
 				<div className="font-molengo mt-[57px] lg:pb-[170px] pb-[50px] bg-[#201f1c] text-[30px] mx-[39px] border-2 border-opacity-[12%] border-white rounded-[40px]">
+					<div className="absolute right-0 -translate-y-[50%] flex items-start">
+						<img src="./imgs/coin2.png" className="w-[184px] h-[184px] translate-x-16" alt="" />
+						<img src="./imgs/coin1.png" className="w-40 h-40 translate-y-12" alt="" />
+					</div>
+					<div className="absolute -left-28 flex items-start translate-y-[1000px] tr">
+						<img src="./imgs/coin1.png" className="w-40 h-40 translate-y-12" alt="" />
+					</div>
 					<h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-lg font-bold text-center text-primary font-palanquin lg:mt-[116px] sm:mt-[56px] mt-[30px]">Frequently Asked Questions</h1>
 					<div className="lg:mt-[111px] sm:mt-[56px] mt-[30px] sm:space-y-[20px] space-y-[10px] text-[30px] font-molengo lg:px-[132px] sm:px-[60px] px-[12px]">
 						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
