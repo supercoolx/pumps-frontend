@@ -34,15 +34,15 @@ function App() {
 						<img src="./imgs/coin1.png" className="ml-[40%] md:h-[160px] h-[80px]" alt="" />
 					</div>
 				</div>
-				{/* <div className="flex items-center gap-[34px] mt-[61px]">
-					<div className="-ml-60">
-						<img src="./imgs/img3.png" className="h-[857px]" alt="" />
+				<div className="flex flex-col-reverse 2xl:flex-row items-start gap-[34px] mt-[109px]">
+					<div className="flex justify-center flex-1 w-full">
+						<img src="./imgs/img3.png" className="2xl:w-full w-[50%]" alt="" />
 					</div>
-					<div className="flex-1 mr-[86px]">
+					<div className="flex-1 mx-[86px] 2xl:ml-0">
 						<h1 className="text-6xl font-bold leading-[108px] text-primary font-palanquin">Feel the Burn</h1>
 						<p className="text-[37px] mt-[10px] leading-[44px] text-justify font-molengo">$Pumps Go To The Gym functions with a “Proof Of Burn” (POB) system. We will build toys which are fun inexpensive and cause people to burn tokens while having fun. Post a meme, burn some $Pumps, advertise your wellness or fitness product by burning some $pumps. Wanna buy a wacky gym meme that allows you the right to modify and commercialize as you see fit, burn some $pumps as well as pay the creator.</p>
 					</div>
-				</div> */}
+				</div>
 				{/* <div>
 					<div className="absolute right-[44px] -translate-y-[30%] flex items-start">
 						<img src="./imgs/coin2.png" className="translate-x-1 -translate-y-5" alt="" />
