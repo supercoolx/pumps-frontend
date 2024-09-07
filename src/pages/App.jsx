@@ -331,16 +331,16 @@ function App() {
 					</div>
 				</div> */}
 			</div>
-			{/* <div className="flex items-center justify-between mt-[36px] ml-[224px] mr-[118px] mb-[55px]">
+			<div className="flex md:flex-row flex-col items-center justify-between mt-[36px] lg:ml-[12%] lg:mr-[7%] ml-[5%] mr-[5%] mb-[55px]">
 				<div className="flex items-center gap-[26px]">
-					<p className="text-[20px] font-outfit">Follow us on:</p>
-					<div className="flex">
-						<img className="h-[43px]" src="./imgs/telegram.svg" alt="" />
-						<img className="h-[43px]" src="./imgs/twitter.png" alt="" />
+					<p className="sm:text-[20px] text-[12px] font-outfit">Follow us on:</p>
+					<div className="flex laptop:gap-[20px] gap-[10px]">
+						<img className="sm:h-[43px] h-[20px]" src="./imgs/telegram.svg" alt="" />
+						<img className="sm:h-[43px] h-[20px]" src="./imgs/twitter.png" alt="" />
 					</div>
 				</div>
-				<p className="text-[20px] font-medium font-outfit">2024 © Copyright $Pumps. All Rights Reserved</p>
-			</div> */}
+				<p className="sm:text-[20px] text-[12px] md:mt-0 mt-5 font-medium font-outfit">2024 © Copyright $Pumps. All Rights Reserved</p>
+			</div>
 		</div>
 	)
 }
