@@ -204,48 +204,48 @@ function App() {
 						</div>
 					</div>
 				</div> */}
-				{/* <div className="flex justify-between mt-[155px] ml-[176px]">
+				<div className="flex lg:flex-row flex-col-reverse justify-between 3xl:my-[155px] laptop:my-[100px] my-[48px] 3xl:ml-[176px] laptop:ml-[100px] sm:ml-[70px] ml-[48px]">
 					<div className="flex-1 font-molengo">
-						<h1 className="font-bold text-primary text-[82px] font-palanquin">Tokenomics</h1>
-						<div className="text-[32px] mt-[73px]">
-							<div className="flex">
+						<h1 className="font-bold text-primary laptop:text-[82px] sm:text-[50px] text-[36px] font-palanquin">Tokenomics</h1>
+						<div className="laptop:text-[32px] text-[22px] laptop:mt-[73px] mt-[36px] laptop:space-y-[17px] space-y-[12px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">Name:</div>
 								<div className="flex-[3]">Pumps Go To The Gym</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">ERC-20 Ticker:</div>
 								<div className="flex-[3]">$Pumps</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">BTC Runes Ticker:</div>
 								<div className="flex-[3]">$Pumps*Go*To*The*Gym</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">Total Tokens:</div>
 								<div className="flex-[3]">100,000,000</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">ERC20 Launch Date:</div>
 								<div className="flex-[3]">April 1, 2024</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">BTC Runes Launch Date:</div>
 								<div className="flex-[3]">February 1, 2025</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">Listing Date:</div>
 								<div className="flex-[3]">October 1, 2024</div>
 							</div>
-							<div className="flex mt-[17px]">
+							<div className="flex sm:flex-row flex-col">
 								<div className="flex-[2] text-primary">Powered By:</div>
 								<div className="flex-[3]">RunesBridge Airdrop Guild</div>
 							</div>
 						</div>
 					</div>
 					<div>
-						<img src="./imgs/img5.png" className="h-[655px] mr-[190px]" alt="" />
+						<img src="./imgs/img5.png" className="laptop:h-[655px] sm:h-[480px] h-655px 3xl:mr-[190px] laptop:mr-[50px] mr-[40px]" alt="" />
 					</div>
-				</div> */}
+				</div>
 				<div className="flex sm:flex-row flex-col items-center">
 					<div className="mt-[47px]">
 						<img src="./imgs/img6.png" className="laptop:h-[622px] lg:h-[400px] sm:h-[250px] h-auto" alt="" />
