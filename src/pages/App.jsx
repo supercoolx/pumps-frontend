@@ -5,7 +5,7 @@ function App() {
 	return (
 		<div>
 			<Header />
-			<div className="mb-10 overflow-hidden">
+			<div className="mb-10 mt-[121px] overflow-hidden">
 				<div className="bg-[url('/imgs/img1.png')] bg-top bg-cover bg-no-repeat text-center" id="home">
 					<h1 className="font-semibold pt-[33%] mx-3 laptop:text-[74px] md:text-6xl mobile:text-4xl text-2xl  font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
 					<h2 className="laptop:text-[45px] md:text-4xl text-2xl laptop:px-72 lg:px-500 px-10 mt-[47px] leading-snug">They promised to send you to the Moon. Pumps will send you to the gym!</h2>
@@ -99,7 +99,7 @@ function App() {
 					<img src="./imgs/img4.png" className="2xl:h-[812px] laptop:h-[700px] xl:h-[600px] lg:h-[500px] md:h-[400px]" alt="" />
 				</div>
 				<div className="relative flex items-end justify-between xl:mt-[234px] md:pr-[5%] pr-5 lg:pl-[81px]">
-					<img src="./imgs/coin1.png" className="translate-y-[80%] xl:h-[150px] lg:h-[120px] md:h-[100px] h-[80px]" alt="" />
+					<img src="./imgs/coin1.png" className="translate-y-[70%] xl:h-[150px] lg:h-[120px] md:h-[100px] h-[80px]" alt="" />
 					<img src="./imgs/line.svg" className="w-[80%] flex-1 text-[#ccb800]" alt="" />
 				</div>
 				<div className="mt-12 text-center font-molengo sm:mt-0">

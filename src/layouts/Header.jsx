@@ -1,11 +1,58 @@
 import { useState } from "react";
 import { ReactSVG } from "react-svg";
 
+const menus = [
+    {
+        title: "Home",
+        target: "home"
+    },
+    {
+        title: "About Us",
+        target: "about_us"
+    },
+    {
+        title: "Buy TBA",
+        target: "governance"
+    },
+    {
+        title: "Feel The Burn",
+        target: "feel_the_burn"
+    },
+    {
+        title: "Community",
+        target: "community"
+    },
+    {
+        title: "Roadmap",
+        target: "roadmap"
+    },
+    {
+        title: "Governance",
+        target: "governance"
+    },
+    {
+        title: "Tokenomics",
+        target: "tokenomics"
+    },
+]
+
 const Header = () => {
     const [menuOpened, setMenuOpend] = useState(false);
+    const [menuIndex, setMenuIndex] = useState(0);
+    const handleMenuClick = function (e, key) {
+        e.preventDefault();
+        let elem = window.document.getElementById(e.target.getAttribute('href'));
+        let scrollY = elem.getBoundingClientRect().top + window.pageYOffset - 121;
+        window.scrollTo({
+            top: scrollY, // Adjust for navbar height
+            behavior: 'smooth'
+        });
+        setMenuOpend(false);
+        setMenuIndex(key);
+    }
 
     return (
-        <div className="py-5 px-[30px] 3xl:px-[70px] bg-[rgb(22,22,20)] border-b border-b-primary font-outfit">
+        <div className="fixed top-0 z-50 w-screen py-5 px-[30px] 3xl:px-[70px] bg-[rgb(22,22,20)] border-b border-b-primary font-outfit">
             <div className="flex flex-col items-start justify-between laptop:items-center laptop:flex-row">
                 <div className="flex items-center justify-between w-full laptop:w-auto">
                     <div className='flex items-center gap-2' href="#home">
@@ -25,14 +72,9 @@ const Header = () => {
                 </div>
                 <div className={`${menuOpened ? 'flex' : 'hidden'} laptop:flex w-full laptop:w-auto laptop:flex-row laptop:p-0 p-3 gap-[22px] items-center sm:text-[24px]`}>
                     <div className="flex w-full laptop:w-auto laptop:space-x-[22px] space-x-0 flex-col laptop:flex-row">
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 bg-primary laptop:bg-transparent rounded-xl laptop:text-primary" href="#home">Home</div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#about_us">About Us</a></div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#link">Buy TBA</a></div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#feel_the_burn">Feel The Burn</a></div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#community">Community</a></div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#roadmap">Roadmap</a></div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#governance">Governance</a></div>
-                        <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#tokenomics">Tokenomics</a></div>
+                    {
+                        menus.map((menu, key) => <a key={key} onClick={(e) => handleMenuClick(e, key)} className={`px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0  ${ menuIndex === key ? 'laptop:text-primary laptop:bg-transparent bg-primary' : 'hover:laptop:text-primary laptop:hover:bg-transparent hover:bg-primary'} rounded-xl`} href={menu.target}>{menu.title}</a>)
+                    }
                     </div>
                     <div className='hidden gap-[24px] laptop:flex'>
                         <a href="https://t.me/pumps"><ReactSVG className='h-[43px] w-[43px]' src="./imgs/telegram.svg"/></a>
