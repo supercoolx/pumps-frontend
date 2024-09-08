@@ -1,13 +1,12 @@
-import { useState } from "react"
 import Header from "../layouts/Header"
-
+import Collapsible from "./Collapsible"
 function App() {
 
 	return (
 		<div>
 			<Header />
 			<div className="mb-10 overflow-hidden">
-				<div className="bg-[url('/imgs/img1.png')] bg-top bg-cover bg-no-repeat text-center">
+				<div className="bg-[url('/imgs/img1.png')] bg-top bg-cover bg-no-repeat text-center" id="home">
 					<h1 className="font-semibold pt-[33%] mx-3 laptop:text-[74px] md:text-6xl mobile:text-4xl text-2xl  font-palanquin text-primary uppercase">$Pumps - on Bitcoin and Ethereum</h1>
 					<h2 className="laptop:text-[45px] md:text-4xl text-2xl laptop:px-72 lg:px-500 px-10 mt-[47px] leading-snug">They promised to send you to the Moon. Pumps will send you to the gym!</h2>
 					<h3 className="laptop:text-[37px] md:text-3xl sm:text-xl mt-[47px]">Powered By <span className="text-primary">Runesbridge</span></h3>
@@ -21,8 +20,8 @@ function App() {
 				<div className="relative mt-[95px]">
 					<div className="flex flex-col items-center lg:flex-row">
 						<div className="flex-1 laptop:px-[137px] md:px-20 px-5 laptop:pr-0">
-							<p className="font-molengo text-[30px]">About Us</p>
-							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold mt-[7px] sm:leading-[77px] text-primary font-palanquin">$Pumps is Launched on October 1st 2024</h1>
+							<p className="font-molengo text-[30px]" id="about_us">About Us</p>
+							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold mt-[7px] sm:leading-[77px] text-primary font-palanquin">$	Pumps is Launched on October 1st 2024</h1>
 							<p className="sm:text-[37px] text-2xl mt-[33px] sm:leading-[44px] text-justify font-molengo">This historic event led to $Pumps being awesome and more and more people started going to the gym and getting Pumped. $Pumps is the number one meme coin for people who respect themselves</p>
 							<p className="sm:text-[37px] text-2xl mt-[24px] sm:leading-[44px] text-justify font-molengo">$Pumps is powered by Runesbridge.xyz and produced by the Runesbridge Airdrop Guild.</p>
 						</div>
@@ -46,7 +45,7 @@ function App() {
 							<img src="./imgs/img3.png" className="lg:w-full w-[50%]" alt="" />
 						</div>
 						<div className="flex-1 laptop:mx-[86px] md:mx-20 mx-5 lg:ml-0">
-							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold leading-[108px] text-primary font-palanquin">Feel the Burn</h1>
+							<h1 className="lg:text-6xl sm:text-5xl text-4xl font-bold leading-[108px] text-primary font-palanquin" id="feel_the_burn">Feel the Burn</h1>
 							<p className="sm:text-[37px] text-2xl mt-[10px] sm:leading-[44px] text-justify font-molengo">$Pumps Go To The Gym functions with a “Proof Of Burn” (POB) system. We will build toys which are fun inexpensive and cause people to burn tokens while having fun. Post a meme, burn some $Pumps, advertise your wellness or fitness product by burning some $pumps. Wanna buy a wacky gym meme that allows you the right to modify and commercialize as you see fit, burn some $pumps as well as pay the creator.</p>
 						</div>
 					</div>
@@ -58,7 +57,7 @@ function App() {
 					</div>
 					<div className="mt-[67px] bg-[url('/imgs/gym.png')] flex xl:justify-end justify-center bg-cover bg-center">
 						<div className="pt-[200px] flex-1 max-w-[968px] xl:mr-[10%] sm:mx-10 mx-5">
-							<h1 className="text-4xl font-semibold lg:text-6xl sm:text-5xl text-primary font-palanquin">Burn Factory</h1>
+							<h1 className="text-4xl font-semibold lg:text-6xl sm:text-5xl text-primary font-palanquin" id="community">Burn Factory</h1>
 							<p className="pt-[13px] font-molengo sm:text-[30px] text-2xl sm:leading-[39px] text-justify">Did someone promise to bring you to the moon and they didn’t deliver? $Pumps will send you to the Gym. Going to the gym is healthy so telling everyone about Pumps might make people healthier</p>
 							<p className="font-molengo pt-[36px] sm:text-[30px] text-2xl sm:leading-[39px] text-justify">We believe that anyone can understand and get onboard with $Pumps because we are <span className='text-primary'>“Powered by Runesbridge”</span> to be both <span className='text-primary'>ERC-20 and BTC Runes</span>.</p>
 							<div className="mt-[57px] mb-[89px]">
@@ -81,32 +80,32 @@ function App() {
 					<div className="lg:flex items-center lg:flex-row flex-wrap gap-[92px] mt-[186px] w-full px-10 justify-center">
 						<div className="bg-white relative mx-auto lg:mx-0 flex items-center justify-center flex-1 max-w-[627px] sm:h-[320px] h-[240px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="sm:text-[30px] text-[16px] bg-clip-text bg-gradient-to-l from-[#b72346] to-[#c5882d] font-inter text-center font-bold">Telegram bot to post a meme, in<br /> exchange for a small burn of<br /> $pumps.</p>
-							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/fire.svg" className="h-[50px]" alt="" /></div>
+							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] lg:w-[95px] lg:h-[95px] w-[65px] h-[65px] flex items-center justify-center rounded-full bg-[#292927] border-2 border-white border-opacity-[12%]"><img src="./imgs/fire.svg" className="lg:h-[50px] h-[32px]" alt="" /></div>
 						</div>
 						<div className="bg-white relative mx-auto lg:mx-0 lg:mt-0 mt-[61px] flex items-center justify-center flex-1 max-w-[627px] sm:h-[320px] h-[280px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="sm:text-[30px] text-[16px] bg-clip-text bg-gradient-to-l from-[#4431ba] to-[#979dd8] font-inter text-center font-bold">Pumps will have an NFT marketplace<br/>where purchases award 80% to the<br/>creator and 20% gets burned.</p>
-							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/people.svg" className="h-[50px]" alt="" /></div>
+							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] lg:w-[95px] lg:h-[95px] w-[65px] h-[65px] flex items-center justify-center rounded-full bg-[#292927] border-2 border-white border-opacity-[12%]"><img src="./imgs/people.svg" className="lg:h-[50px] h-[32px]" alt="" /></div>
 						</div>
 					</div>
 					<div className="flex justify-center w-full px-10">
 						<div className="bg-white relative flex items-center mt-[61px] justify-center flex-1 lg:max-w-[816px] max-w-[627px] sm:h-[320px] h-[400px] bg-opacity-[8%] border-2 border-white border-opacity-[12%] rounded-[40px]">
 							<p style={{ WebkitTextFillColor: 'transparent' }} className="sm:text-[30px] text-[16px] bg-clip-text bg-gradient-to-l from-[#30ae35] to-[#236d49] font-inter text-center font-bold">Twitter post bot, submit a meme and a burn<br/>offering via our website. Your request will be<br/>approved by a $pumps committee and if<br/> accepted your tokens are burned and your<br/> meme and post is automatically posted on<br/> our twitter.</p>
-							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] w-[95px] h-[95px] flex items-center justify-center rounded-full bg-white bg-opacity-[10%] border-2 border-white border-opacity-[12%]"><img src="./imgs/weight.svg" className="h-[50px]" alt="" /></div>
+							<div className="absolute top-0 right-0 translate-x-[27px] -translate-y-[27px] lg:w-[95px] lg:h-[95px] w-[65px] h-[65px] flex items-center justify-center rounded-full  bg-[#292927] border-2 border-white border-opacity-[12%]"><img src="./imgs/weight.svg" className="lg:h-[50px] h-[32px]" alt="" /></div>
 						</div>
 					</div>
 				</div>
 				<div className="flex lg:flex-row flex-col-reverse  lg:items-center items-end justify-between -mt-[15%]">
-					<h1 className="lg:text-6xl sm:text-5xl text-4xl ml-[192px] font-semibold font-palanquin text-primary lg:w-auto w-full px-10">Roadmap</h1>
+					<h1 className="lg:text-6xl sm:text-5xl text-4xl ml-[192px] font-semibold font-palanquin text-primary lg:w-auto w-full px-10" id="roadmap">Roadmap</h1>
 					<img src="./imgs/img4.png" className="2xl:h-[812px] laptop:h-[700px] xl:h-[600px] lg:h-[500px] md:h-[400px]" alt="" />
 				</div>
-				<div className="relative flex items-end justify-between xl:mt-[234px] md:pr-[5%] pr-5 pl-[81px]">
+				<div className="relative flex items-end justify-between xl:mt-[234px] md:pr-[5%] pr-5 lg:pl-[81px]">
 					<img src="./imgs/coin1.png" className="translate-y-[80%] xl:h-[150px] lg:h-[120px] md:h-[100px] h-[80px]" alt="" />
 					<img src="./imgs/line.svg" className="w-[80%] flex-1 text-[#9d8d00]" alt="" />
 				</div>
 				<div className="text-center font-molengo sm:mt-0 mt-12">
-					<p className="text-[30px] leading-[61px]">Governance</p>
+					<p className="text-[30px] leading-[61px]" id="governance">Governance</p>
 					<h1 className="font-bold text-primary mt-[3px] lg:text-6xl sm:text-5xl text-4xl font-palanquin">Governance of the $Pumps Token</h1>
-					<p className="sm:text-[37px] text-2xl sm:mt-[56px] mt-8 leading-[62px]">Phased Committee-Based Governance Model</p>
+					<p className="sm:text-[37px] text-2xl sm:mt-[56px] mt-8 sm:leading-[62px] leading-[32px]">Phased Committee-Based Governance Model</p>
 					<p className="sm:mt-[20px] mt-3 sm:text-3xl text-xl laptop:mx-[261px] sm:mx-[100px] mx-5">The governance of the $Pumps token is designed to evolve with the growth and maturity of our community. Initially, committees will be formed with a focus on expediency and effectiveness, gradually transitioning to a more transparent and formal governance structure. This phased approach ensures both quick decision-making and long-term stability.</p>
 					<div className="flex justify-end">
 						<img src="./imgs/coin2.png" className="h-[95px] mt-[32px] mr-[114px]" alt="" />
@@ -136,7 +135,7 @@ function App() {
 				</div>
 				<div className="font-molengo mt-[135px]">
 					<div className="relative inset-0">
-						<img className="absolute top-0 left-0 mt-[10%]" src="./imgs/coin2.png" alt="" />
+						<img className="absolute h-[95px] lg:h-[184px] top-0 left-0 mt-[10%]" src="./imgs/coin2.png" alt="" />
 					</div>
 					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[20%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 2</div>
 					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
@@ -156,7 +155,7 @@ function App() {
 						</div>
 					</div>
 					<div className="relative inset-0">
-						<img className="absolute bottom-0 right-0 w-40 h-40" src="./imgs/coin1.png" alt="" />
+						<img className="absolute h-[95px] lg:h-[184px] bottom-0 right-0" src="./imgs/coin1.png" alt="" />
 					</div>
 				</div>
 				<div className="font-molengo mt-[135px]">
@@ -181,7 +180,7 @@ function App() {
 				</div>
 				<div className="font-molengo mt-[135px]">
 					<div className="relative inset-0">
-						<img className="absolute top-0 left-0 w-40 h-40" src="./imgs/coin1.png" alt="" />
+						<img className="absolute h-[95px] lg:h-[184px] top-0 left-0" src="./imgs/coin1.png" alt="" />
 					</div>
 					<div style={{ WebkitTextStroke: '2px #f7931a'}} className="relative -z-10 ml-[40%] font-bold opacity-[39%] leading-[87px] font-league text-transparent 3xl:text-[188px] 2xl:text-[150px] xl:text-[120px] lg:text-[90px] md:text-[60px] text-[30px]">PHASE 4</div>
 					<div className="bg-[#201f1c] z-10 pb-[118px] sm:text-[30px] text-2xl 3xl:mx-[180px] 2xl:mx-[150px] xl:mx-[120px] lg:mx-[90px] md:mx-[60px] mx-[30px] border-2 border-opacity-[12%] border-white rounded-[40px] lg:px-[82px] px-[30px] -mt-[30px]">
@@ -201,7 +200,7 @@ function App() {
 						</div>
 					</div>
 					<div className="relative inset-0">
-						<img className="absolute bottom-0 right-0 mt-[10%]" src="./imgs/coin2.png" alt="" />
+						<img className="absolute h-[95px] lg:h-[184px] bottom-0 right-0 mt-[10%]" src="./imgs/coin2.png" alt="" />
 					</div>
 				</div>
 				<div>
@@ -231,7 +230,7 @@ function App() {
 				</div>
 				<div className="flex lg:flex-row flex-col-reverse justify-between 3xl:my-[155px] laptop:my-[100px] my-[48px] 3xl:ml-[176px] laptop:ml-[100px] sm:ml-[70px] ml-[48px]">
 					<div className="flex-1 font-molengo">
-						<h1 className="font-bold text-primary laptop:text-[82px] sm:text-[50px] text-[36px] font-palanquin">Tokenomics</h1>
+						<h1 className="font-bold text-primary laptop:text-[82px] sm:text-[50px] text-[36px] font-palanquin" id="tokenomics">Tokenomics</h1>
 						<div className="laptop:text-[32px] text-[22px] laptop:mt-[73px] mt-[36px] laptop:space-y-[17px] space-y-[12px]">
 							<div className="flex flex-col sm:flex-row">
 								<div className="flex-[2] text-primary">Name:</div>
@@ -317,67 +316,19 @@ function App() {
 						<img src="./imgs/coin1.png" className="sm:w-40 w-20 sm:h-40 h-20 translate-y-12" alt="" />
 					</div>
 					<div className="absolute -left-28 flex items-start translate-y-[1000px] tr">
-						<img src="./imgs/coin1.png" className="w-40 h-40 translate-y-12" alt="" />
+						<img src="./imgs/coin1.png" className="sm:w-40 w-20 sm:h-40 h-20 translate-y-12" alt="" />
 					</div>
 					<h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-lg font-bold text-center text-primary font-palanquin lg:mt-[116px] sm:mt-[56px] mt-[30px]">Frequently Asked Questions</h1>
 					<div className="lg:mt-[111px] sm:mt-[56px] mt-[30px] sm:space-y-[20px] space-y-[10px] text-[30px] font-molengo lg:px-[132px] sm:px-[60px] px-[12px]">
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">Why is $Pumps so great?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-							<div className="sm:mt-[35px] mt-[14px] sm:text-2xl text-[12px]">
-								<p className="">Because $Pumps Go To The Gym</p>
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">How can I improve my life?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">If you are having lower back pain?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">If you are experiencing awkwardness discussing crypto with your loved ones ?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">If you are experiencing stress?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness.</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">Don’t feel comfortable speaking with “that side of the family” because of politics ?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
-						<div className="rounded-[15px] border-2 py-[37px] lg:px-[63px] sm:px-[30px] px-[12px] bg-white bg-opacity-[12%] border-white border-opacity-[12%]">
-							<div className="flex items-center justify-between text-sm sm:text-3xl">
-								<h2 className="px-2 text-primary">So there was this guy named Dave, right?</h2>
-								<img className="sm:h-auto h-[10px]" src="./imgs/arrow.svg" alt="" />
-							</div>
-						</div>
+						<Collapsible title="Why is $Pumps so great?" des="Because $Pumps Go To The Gym" open={true}/>
+						<Collapsible title="How can I improve my life?" des="How can I improve my life?" open={false}/>
+						<Collapsible title="If you are having lower back pain?" des="If you are having lower back pain?" open={false}/>
+						<Collapsible title="If you are experiencing awkwardness discussing crypto with your loved ones ?" des="If you are experiencing awkwardness discussing crypto with your loved ones ?" open={false}/>
+						<Collapsible title="If you are experiencing stress?" des="If you are experiencing stress?" open={false}/>
+						<Collapsible title="If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness." des="If you are tired ? Perhaps because your Neighbor’s tree is dropping leafs and causing you to spend your day cleaning up leafs, putting them in garbages bags and hauling them to the road. If this causes stress or tiredness." open={false}/>
+						<Collapsible title="Don’t feel comfortable speaking with “that side of the family” because of politics ?" des="Don’t feel comfortable speaking with “that side of the family” because of politics ?" open={false}/>
+						<Collapsible title="Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?" des="Do you have to be in shape to like pumps go to the gym ?Do you have to be in shape to like pumps go to the gym ?" open={false}/>
+						<Collapsible title="So there was this guy named Dave, right?" des="So there was this guy named Dave, right?" open={false}/>
 					</div>
 				</div>
 			</div>

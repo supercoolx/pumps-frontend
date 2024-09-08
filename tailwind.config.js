@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require("tw-elements/plugin.cjs")
   ],
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
+    "./node_modules/tw-elements/js/**/*.js"
   ],
   theme: {
     fontFamily: {
