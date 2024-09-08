@@ -14,8 +14,8 @@ const Header = () => {
                     </div>
                     <div className="flex items-center gap-[24px] laptop:hidden">
                         <div className='flex gap-2 sm:gap-6 '>
-                            <button><ReactSVG className='sm:h-[43px] sm:w-[43px] h-5 w-5' src="./imgs/telegram.svg"/></button>
-                            <button><img className='sm:h-[35px] sm:w-[35px] h-5 w-5' src="./imgs/twitter.png"/></button>
+                            <a href="https://t.me/pumps"><ReactSVG className='sm:h-[43px] sm:w-[43px] h-5 w-5' src="./imgs/telegram.svg"/></a>
+                            <a href="https://x.com"><img className='sm:h-[35px] sm:w-[35px] h-5 w-5' src="./imgs/twitter.png"/></a>
                         </div>
                         <button onClick={() => setMenuOpend(!menuOpened)} className="" type="button">
                             <span className="sr-only">Open main menu</span>
@@ -35,8 +35,8 @@ const Header = () => {
                         <div className="px-6 py-3 transition-all duration-200 cursor-pointer md:px-10 laptop:px-0 laptop:py-0 laptop:hover:bg-transparent hover:bg-slate-800 hover:text-primary laptop:bg-transparent rounded-xl"><a href="#tokenomics">Tokenomics</a></div>
                     </div>
                     <div className='hidden gap-[24px] laptop:flex'>
-                        <button href="https://t.me/pumps"><ReactSVG className='h-[43px] w-[43px]' src="./imgs/telegram.svg"/></button>
-                        <button href="https://twitter.com"><img className='h-[35px] w-[35px]' src="./imgs/twitter.png"/></button>
+                        <a href="https://t.me/pumps"><ReactSVG className='h-[43px] w-[43px]' src="./imgs/telegram.svg"/></a>
+                        <a href="https://x.com"><img className='h-[35px] w-[35px]' src="./imgs/twitter.png"/></a>
                     </div>
                 </div>
             </div>

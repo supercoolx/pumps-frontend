@@ -29,6 +29,10 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     color: #d8dedf;
