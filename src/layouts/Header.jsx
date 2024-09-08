@@ -78,7 +78,7 @@ const Header = () => {
                     </div>
                     <div className='hidden gap-[24px] laptop:flex'>
                         <a href="https://t.me/pumps"><ReactSVG className='h-[43px] w-[43px]' src="./imgs/telegram.svg"/></a>
-                        <a href="https://x.com"><img className='h-[35px] w-[35px]' src="./imgs/twitter.png"/></a>
+                        <a href="https://x.com" className="flex items-center"><img className='h-[35px] w-[35px]' src="./imgs/twitter.png"/></a>
                     </div>
                 </div>
             </div>
